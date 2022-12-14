@@ -1,0 +1,35 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.398);
+}
+
+#videos {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+#videos > video {
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+  
+}
+
